@@ -1,26 +1,26 @@
 {
-  "name": "@granite-elements/granite-lit-bootstrap",
+  "name": "@lmscloud/granite-lit-bootstrap",
   "description": "Wrapping of *Bootstrap CSS* as a LitElement CSS TemplateResult to be used in LitElement web components",
   "main": "granite-lit-bootstrap-min.js",
   "module": "granite-lit-bootstrap-min.js",
-  "author": "Horacio Gonzalez <horacio.gonzalez@gmail.com>",
+  "author": "Paul Derscheid <paul.derscheid@lmscloud.de>",
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lostinbrittany/granite-lit-bootstrap.git"
+    "url": "git://github.com/LMSCloudPaulD/granite-lit-bootstrap.git"
   },
-  "homepage": "https://github.com/lostinbrittany/granite-lit-bootstrap",
+  "homepage": "https://github.com/LMSCloudPaulD/granite-lit-bootstrap",
   "dependencies": {
-    "lit": "^2.0.0-rc.1"
+    "lit": "^2.7.5"
   },
   "scripts": {
     "prepare": "node  ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/bootstrap/dist/css . bootstrapStyles",
     "serve": "npx es-dev-server --node-resolve --watch"
   },
-  "version": "4.6.0-0",
+  "version": "5.3.0-0",
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.5.0",
-    "bootstrap": "4.6.0",
+    "@webcomponents/webcomponentsjs": "^2.8.0",
+    "bootstrap": "5.3.0",
     "es-dev-server": "^2.1.0",
     "granite-lit-css-modularizer": "^2.0.0"
   }

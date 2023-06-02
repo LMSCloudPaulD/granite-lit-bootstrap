@@ -32,10 +32,10 @@ export const bootstrapStyles = css`
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
   margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 576px) {
@@ -78,16 +78,16 @@ export const bootstrapStyles = css`
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
   box-sizing: border-box;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -196,47 +196,47 @@ export const bootstrapStyles = css`
 }
 
 .offset-1 {
-  margin-left: 8.33333333%;
+  margin-right: 8.33333333%;
 }
 
 .offset-2 {
-  margin-left: 16.66666667%;
+  margin-right: 16.66666667%;
 }
 
 .offset-3 {
-  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .offset-4 {
-  margin-left: 33.33333333%;
+  margin-right: 33.33333333%;
 }
 
 .offset-5 {
-  margin-left: 41.66666667%;
+  margin-right: 41.66666667%;
 }
 
 .offset-6 {
-  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .offset-7 {
-  margin-left: 58.33333333%;
+  margin-right: 58.33333333%;
 }
 
 .offset-8 {
-  margin-left: 66.66666667%;
+  margin-right: 66.66666667%;
 }
 
 .offset-9 {
-  margin-left: 75%;
+  margin-right: 75%;
 }
 
 .offset-10 {
-  margin-left: 83.33333333%;
+  margin-right: 83.33333333%;
 }
 
 .offset-11 {
-  margin-left: 91.66666667%;
+  margin-right: 91.66666667%;
 }
 
 .g-0,
@@ -384,40 +384,40 @@ export const bootstrapStyles = css`
     width: 100%;
   }
   .offset-sm-0 {
-    margin-left: 0;
+    margin-right: 0;
   }
   .offset-sm-1 {
-    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
   }
   .offset-sm-2 {
-    margin-left: 16.66666667%;
+    margin-right: 16.66666667%;
   }
   .offset-sm-3 {
-    margin-left: 25%;
+    margin-right: 25%;
   }
   .offset-sm-4 {
-    margin-left: 33.33333333%;
+    margin-right: 33.33333333%;
   }
   .offset-sm-5 {
-    margin-left: 41.66666667%;
+    margin-right: 41.66666667%;
   }
   .offset-sm-6 {
-    margin-left: 50%;
+    margin-right: 50%;
   }
   .offset-sm-7 {
-    margin-left: 58.33333333%;
+    margin-right: 58.33333333%;
   }
   .offset-sm-8 {
-    margin-left: 66.66666667%;
+    margin-right: 66.66666667%;
   }
   .offset-sm-9 {
-    margin-left: 75%;
+    margin-right: 75%;
   }
   .offset-sm-10 {
-    margin-left: 83.33333333%;
+    margin-right: 83.33333333%;
   }
   .offset-sm-11 {
-    margin-left: 91.66666667%;
+    margin-right: 91.66666667%;
   }
   .g-sm-0,
   .gx-sm-0 {
@@ -553,40 +553,40 @@ export const bootstrapStyles = css`
     width: 100%;
   }
   .offset-md-0 {
-    margin-left: 0;
+    margin-right: 0;
   }
   .offset-md-1 {
-    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
   }
   .offset-md-2 {
-    margin-left: 16.66666667%;
+    margin-right: 16.66666667%;
   }
   .offset-md-3 {
-    margin-left: 25%;
+    margin-right: 25%;
   }
   .offset-md-4 {
-    margin-left: 33.33333333%;
+    margin-right: 33.33333333%;
   }
   .offset-md-5 {
-    margin-left: 41.66666667%;
+    margin-right: 41.66666667%;
   }
   .offset-md-6 {
-    margin-left: 50%;
+    margin-right: 50%;
   }
   .offset-md-7 {
-    margin-left: 58.33333333%;
+    margin-right: 58.33333333%;
   }
   .offset-md-8 {
-    margin-left: 66.66666667%;
+    margin-right: 66.66666667%;
   }
   .offset-md-9 {
-    margin-left: 75%;
+    margin-right: 75%;
   }
   .offset-md-10 {
-    margin-left: 83.33333333%;
+    margin-right: 83.33333333%;
   }
   .offset-md-11 {
-    margin-left: 91.66666667%;
+    margin-right: 91.66666667%;
   }
   .g-md-0,
   .gx-md-0 {
@@ -722,40 +722,40 @@ export const bootstrapStyles = css`
     width: 100%;
   }
   .offset-lg-0 {
-    margin-left: 0;
+    margin-right: 0;
   }
   .offset-lg-1 {
-    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
   }
   .offset-lg-2 {
-    margin-left: 16.66666667%;
+    margin-right: 16.66666667%;
   }
   .offset-lg-3 {
-    margin-left: 25%;
+    margin-right: 25%;
   }
   .offset-lg-4 {
-    margin-left: 33.33333333%;
+    margin-right: 33.33333333%;
   }
   .offset-lg-5 {
-    margin-left: 41.66666667%;
+    margin-right: 41.66666667%;
   }
   .offset-lg-6 {
-    margin-left: 50%;
+    margin-right: 50%;
   }
   .offset-lg-7 {
-    margin-left: 58.33333333%;
+    margin-right: 58.33333333%;
   }
   .offset-lg-8 {
-    margin-left: 66.66666667%;
+    margin-right: 66.66666667%;
   }
   .offset-lg-9 {
-    margin-left: 75%;
+    margin-right: 75%;
   }
   .offset-lg-10 {
-    margin-left: 83.33333333%;
+    margin-right: 83.33333333%;
   }
   .offset-lg-11 {
-    margin-left: 91.66666667%;
+    margin-right: 91.66666667%;
   }
   .g-lg-0,
   .gx-lg-0 {
@@ -891,40 +891,40 @@ export const bootstrapStyles = css`
     width: 100%;
   }
   .offset-xl-0 {
-    margin-left: 0;
+    margin-right: 0;
   }
   .offset-xl-1 {
-    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
   }
   .offset-xl-2 {
-    margin-left: 16.66666667%;
+    margin-right: 16.66666667%;
   }
   .offset-xl-3 {
-    margin-left: 25%;
+    margin-right: 25%;
   }
   .offset-xl-4 {
-    margin-left: 33.33333333%;
+    margin-right: 33.33333333%;
   }
   .offset-xl-5 {
-    margin-left: 41.66666667%;
+    margin-right: 41.66666667%;
   }
   .offset-xl-6 {
-    margin-left: 50%;
+    margin-right: 50%;
   }
   .offset-xl-7 {
-    margin-left: 58.33333333%;
+    margin-right: 58.33333333%;
   }
   .offset-xl-8 {
-    margin-left: 66.66666667%;
+    margin-right: 66.66666667%;
   }
   .offset-xl-9 {
-    margin-left: 75%;
+    margin-right: 75%;
   }
   .offset-xl-10 {
-    margin-left: 83.33333333%;
+    margin-right: 83.33333333%;
   }
   .offset-xl-11 {
-    margin-left: 91.66666667%;
+    margin-right: 91.66666667%;
   }
   .g-xl-0,
   .gx-xl-0 {
@@ -1060,40 +1060,40 @@ export const bootstrapStyles = css`
     width: 100%;
   }
   .offset-xxl-0 {
-    margin-left: 0;
+    margin-right: 0;
   }
   .offset-xxl-1 {
-    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
   }
   .offset-xxl-2 {
-    margin-left: 16.66666667%;
+    margin-right: 16.66666667%;
   }
   .offset-xxl-3 {
-    margin-left: 25%;
+    margin-right: 25%;
   }
   .offset-xxl-4 {
-    margin-left: 33.33333333%;
+    margin-right: 33.33333333%;
   }
   .offset-xxl-5 {
-    margin-left: 41.66666667%;
+    margin-right: 41.66666667%;
   }
   .offset-xxl-6 {
-    margin-left: 50%;
+    margin-right: 50%;
   }
   .offset-xxl-7 {
-    margin-left: 58.33333333%;
+    margin-right: 58.33333333%;
   }
   .offset-xxl-8 {
-    margin-left: 66.66666667%;
+    margin-right: 66.66666667%;
   }
   .offset-xxl-9 {
-    margin-left: 75%;
+    margin-right: 75%;
   }
   .offset-xxl-10 {
-    margin-left: 83.33333333%;
+    margin-right: 83.33333333%;
   }
   .offset-xxl-11 {
-    margin-left: 91.66666667%;
+    margin-right: 91.66666667%;
   }
   .g-xxl-0,
   .gx-xxl-0 {
@@ -1389,38 +1389,38 @@ export const bootstrapStyles = css`
 }
 
 .mx-0 {
-  margin-right: 0 !important;
   margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .mx-1 {
-  margin-right: 0.25rem !important;
   margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
 }
 
 .mx-2 {
-  margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
 }
 
 .mx-3 {
-  margin-right: 1rem !important;
   margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .mx-4 {
-  margin-right: 1.5rem !important;
   margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 .mx-5 {
-  margin-right: 3rem !important;
   margin-left: 3rem !important;
+  margin-right: 3rem !important;
 }
 
 .mx-auto {
-  margin-right: auto !important;
   margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .my-0 {
@@ -1487,31 +1487,31 @@ export const bootstrapStyles = css`
 }
 
 .me-0 {
-  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 .me-1 {
-  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
 }
 
 .me-2 {
-  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .me-3 {
-  margin-right: 1rem !important;
+  margin-left: 1rem !important;
 }
 
 .me-4 {
-  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
 }
 
 .me-5 {
-  margin-right: 3rem !important;
+  margin-left: 3rem !important;
 }
 
 .me-auto {
-  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .mb-0 {
@@ -1543,31 +1543,31 @@ export const bootstrapStyles = css`
 }
 
 .ms-0 {
-  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .ms-1 {
-  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
 }
 
 .ms-2 {
-  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
 }
 
 .ms-3 {
-  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .ms-4 {
-  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 .ms-5 {
-  margin-left: 3rem !important;
+  margin-right: 3rem !important;
 }
 
 .ms-auto {
-  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .p-0 {
@@ -1595,33 +1595,33 @@ export const bootstrapStyles = css`
 }
 
 .px-0 {
-  padding-right: 0 !important;
   padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .px-1 {
-  padding-right: 0.25rem !important;
   padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
 }
 
 .px-2 {
-  padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .px-3 {
-  padding-right: 1rem !important;
   padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .px-4 {
-  padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 
 .px-5 {
-  padding-right: 3rem !important;
   padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 .py-0 {
@@ -1679,27 +1679,27 @@ export const bootstrapStyles = css`
 }
 
 .pe-0 {
-  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .pe-1 {
-  padding-right: 0.25rem !important;
+  padding-left: 0.25rem !important;
 }
 
 .pe-2 {
-  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
 }
 
 .pe-3 {
-  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 .pe-4 {
-  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .pe-5 {
-  padding-right: 3rem !important;
+  padding-left: 3rem !important;
 }
 
 .pb-0 {
@@ -1727,27 +1727,27 @@ export const bootstrapStyles = css`
 }
 
 .ps-0 {
-  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .ps-1 {
-  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
 }
 
 .ps-2 {
-  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .ps-3 {
-  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .ps-4 {
-  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 
 .ps-5 {
-  padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 @media (min-width: 576px) {
@@ -1935,32 +1935,32 @@ export const bootstrapStyles = css`
     margin: auto !important;
   }
   .mx-sm-0 {
-    margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .mx-sm-1 {
-    margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .mx-sm-2 {
-    margin-right: 0.5rem !important;
     margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .mx-sm-3 {
-    margin-right: 1rem !important;
     margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .mx-sm-4 {
-    margin-right: 1.5rem !important;
     margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .mx-sm-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .mx-sm-auto {
-    margin-right: auto !important;
     margin-left: auto !important;
+    margin-right: auto !important;
   }
   .my-sm-0 {
     margin-top: 0 !important;
@@ -2012,25 +2012,25 @@ export const bootstrapStyles = css`
     margin-top: auto !important;
   }
   .me-sm-0 {
-    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .me-sm-1 {
-    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
   }
   .me-sm-2 {
-    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
   }
   .me-sm-3 {
-    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
   .me-sm-4 {
-    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
   .me-sm-5 {
-    margin-right: 3rem !important;
+    margin-left: 3rem !important;
   }
   .me-sm-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .mb-sm-0 {
     margin-bottom: 0 !important;
@@ -2054,25 +2054,25 @@ export const bootstrapStyles = css`
     margin-bottom: auto !important;
   }
   .ms-sm-0 {
-    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .ms-sm-1 {
-    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .ms-sm-2 {
-    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .ms-sm-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .ms-sm-4 {
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .ms-sm-5 {
-    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .ms-sm-auto {
-    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .p-sm-0 {
     padding: 0 !important;
@@ -2093,28 +2093,28 @@ export const bootstrapStyles = css`
     padding: 3rem !important;
   }
   .px-sm-0 {
-    padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .px-sm-1 {
-    padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .px-sm-2 {
-    padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .px-sm-3 {
-    padding-right: 1rem !important;
     padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .px-sm-4 {
-    padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .px-sm-5 {
-    padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
   .py-sm-0 {
     padding-top: 0 !important;
@@ -2159,22 +2159,22 @@ export const bootstrapStyles = css`
     padding-top: 3rem !important;
   }
   .pe-sm-0 {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .pe-sm-1 {
-    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
   }
   .pe-sm-2 {
-    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
   .pe-sm-3 {
-    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .pe-sm-4 {
-    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .pe-sm-5 {
-    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pb-sm-0 {
     padding-bottom: 0 !important;
@@ -2195,22 +2195,22 @@ export const bootstrapStyles = css`
     padding-bottom: 3rem !important;
   }
   .ps-sm-0 {
-    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .ps-sm-1 {
-    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .ps-sm-2 {
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .ps-sm-3 {
-    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .ps-sm-4 {
-    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .ps-sm-5 {
-    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -2398,32 +2398,32 @@ export const bootstrapStyles = css`
     margin: auto !important;
   }
   .mx-md-0 {
-    margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .mx-md-1 {
-    margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .mx-md-2 {
-    margin-right: 0.5rem !important;
     margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .mx-md-3 {
-    margin-right: 1rem !important;
     margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .mx-md-4 {
-    margin-right: 1.5rem !important;
     margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .mx-md-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .mx-md-auto {
-    margin-right: auto !important;
     margin-left: auto !important;
+    margin-right: auto !important;
   }
   .my-md-0 {
     margin-top: 0 !important;
@@ -2475,25 +2475,25 @@ export const bootstrapStyles = css`
     margin-top: auto !important;
   }
   .me-md-0 {
-    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .me-md-1 {
-    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
   }
   .me-md-2 {
-    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
   }
   .me-md-3 {
-    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
   .me-md-4 {
-    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
   .me-md-5 {
-    margin-right: 3rem !important;
+    margin-left: 3rem !important;
   }
   .me-md-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .mb-md-0 {
     margin-bottom: 0 !important;
@@ -2517,25 +2517,25 @@ export const bootstrapStyles = css`
     margin-bottom: auto !important;
   }
   .ms-md-0 {
-    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .ms-md-1 {
-    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .ms-md-2 {
-    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .ms-md-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .ms-md-4 {
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .ms-md-5 {
-    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .ms-md-auto {
-    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .p-md-0 {
     padding: 0 !important;
@@ -2556,28 +2556,28 @@ export const bootstrapStyles = css`
     padding: 3rem !important;
   }
   .px-md-0 {
-    padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .px-md-1 {
-    padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .px-md-2 {
-    padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .px-md-3 {
-    padding-right: 1rem !important;
     padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .px-md-4 {
-    padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .px-md-5 {
-    padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
   .py-md-0 {
     padding-top: 0 !important;
@@ -2622,22 +2622,22 @@ export const bootstrapStyles = css`
     padding-top: 3rem !important;
   }
   .pe-md-0 {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .pe-md-1 {
-    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
   }
   .pe-md-2 {
-    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
   .pe-md-3 {
-    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .pe-md-4 {
-    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .pe-md-5 {
-    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pb-md-0 {
     padding-bottom: 0 !important;
@@ -2658,22 +2658,22 @@ export const bootstrapStyles = css`
     padding-bottom: 3rem !important;
   }
   .ps-md-0 {
-    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .ps-md-1 {
-    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .ps-md-2 {
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .ps-md-3 {
-    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .ps-md-4 {
-    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .ps-md-5 {
-    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 @media (min-width: 992px) {
@@ -2861,32 +2861,32 @@ export const bootstrapStyles = css`
     margin: auto !important;
   }
   .mx-lg-0 {
-    margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .mx-lg-1 {
-    margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .mx-lg-2 {
-    margin-right: 0.5rem !important;
     margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .mx-lg-3 {
-    margin-right: 1rem !important;
     margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .mx-lg-4 {
-    margin-right: 1.5rem !important;
     margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .mx-lg-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .mx-lg-auto {
-    margin-right: auto !important;
     margin-left: auto !important;
+    margin-right: auto !important;
   }
   .my-lg-0 {
     margin-top: 0 !important;
@@ -2938,25 +2938,25 @@ export const bootstrapStyles = css`
     margin-top: auto !important;
   }
   .me-lg-0 {
-    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .me-lg-1 {
-    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
   }
   .me-lg-2 {
-    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
   }
   .me-lg-3 {
-    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
   .me-lg-4 {
-    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
   .me-lg-5 {
-    margin-right: 3rem !important;
+    margin-left: 3rem !important;
   }
   .me-lg-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .mb-lg-0 {
     margin-bottom: 0 !important;
@@ -2980,25 +2980,25 @@ export const bootstrapStyles = css`
     margin-bottom: auto !important;
   }
   .ms-lg-0 {
-    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .ms-lg-1 {
-    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .ms-lg-2 {
-    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .ms-lg-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .ms-lg-4 {
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .ms-lg-5 {
-    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .ms-lg-auto {
-    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .p-lg-0 {
     padding: 0 !important;
@@ -3019,28 +3019,28 @@ export const bootstrapStyles = css`
     padding: 3rem !important;
   }
   .px-lg-0 {
-    padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .px-lg-1 {
-    padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .px-lg-2 {
-    padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .px-lg-3 {
-    padding-right: 1rem !important;
     padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .px-lg-4 {
-    padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .px-lg-5 {
-    padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
   .py-lg-0 {
     padding-top: 0 !important;
@@ -3085,22 +3085,22 @@ export const bootstrapStyles = css`
     padding-top: 3rem !important;
   }
   .pe-lg-0 {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .pe-lg-1 {
-    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
   }
   .pe-lg-2 {
-    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
   .pe-lg-3 {
-    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .pe-lg-4 {
-    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .pe-lg-5 {
-    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pb-lg-0 {
     padding-bottom: 0 !important;
@@ -3121,22 +3121,22 @@ export const bootstrapStyles = css`
     padding-bottom: 3rem !important;
   }
   .ps-lg-0 {
-    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .ps-lg-1 {
-    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .ps-lg-2 {
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .ps-lg-3 {
-    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .ps-lg-4 {
-    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .ps-lg-5 {
-    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 @media (min-width: 1200px) {
@@ -3324,32 +3324,32 @@ export const bootstrapStyles = css`
     margin: auto !important;
   }
   .mx-xl-0 {
-    margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .mx-xl-1 {
-    margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .mx-xl-2 {
-    margin-right: 0.5rem !important;
     margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .mx-xl-3 {
-    margin-right: 1rem !important;
     margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .mx-xl-4 {
-    margin-right: 1.5rem !important;
     margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .mx-xl-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .mx-xl-auto {
-    margin-right: auto !important;
     margin-left: auto !important;
+    margin-right: auto !important;
   }
   .my-xl-0 {
     margin-top: 0 !important;
@@ -3401,25 +3401,25 @@ export const bootstrapStyles = css`
     margin-top: auto !important;
   }
   .me-xl-0 {
-    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .me-xl-1 {
-    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
   }
   .me-xl-2 {
-    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
   }
   .me-xl-3 {
-    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
   .me-xl-4 {
-    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
   .me-xl-5 {
-    margin-right: 3rem !important;
+    margin-left: 3rem !important;
   }
   .me-xl-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .mb-xl-0 {
     margin-bottom: 0 !important;
@@ -3443,25 +3443,25 @@ export const bootstrapStyles = css`
     margin-bottom: auto !important;
   }
   .ms-xl-0 {
-    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .ms-xl-1 {
-    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .ms-xl-2 {
-    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .ms-xl-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .ms-xl-4 {
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .ms-xl-5 {
-    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .ms-xl-auto {
-    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .p-xl-0 {
     padding: 0 !important;
@@ -3482,28 +3482,28 @@ export const bootstrapStyles = css`
     padding: 3rem !important;
   }
   .px-xl-0 {
-    padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .px-xl-1 {
-    padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .px-xl-2 {
-    padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .px-xl-3 {
-    padding-right: 1rem !important;
     padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .px-xl-4 {
-    padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .px-xl-5 {
-    padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
   .py-xl-0 {
     padding-top: 0 !important;
@@ -3548,22 +3548,22 @@ export const bootstrapStyles = css`
     padding-top: 3rem !important;
   }
   .pe-xl-0 {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .pe-xl-1 {
-    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
   }
   .pe-xl-2 {
-    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
   .pe-xl-3 {
-    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .pe-xl-4 {
-    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .pe-xl-5 {
-    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pb-xl-0 {
     padding-bottom: 0 !important;
@@ -3584,22 +3584,22 @@ export const bootstrapStyles = css`
     padding-bottom: 3rem !important;
   }
   .ps-xl-0 {
-    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .ps-xl-1 {
-    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .ps-xl-2 {
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .ps-xl-3 {
-    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .ps-xl-4 {
-    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .ps-xl-5 {
-    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 @media (min-width: 1400px) {
@@ -3787,32 +3787,32 @@ export const bootstrapStyles = css`
     margin: auto !important;
   }
   .mx-xxl-0 {
-    margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .mx-xxl-1 {
-    margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .mx-xxl-2 {
-    margin-right: 0.5rem !important;
     margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .mx-xxl-3 {
-    margin-right: 1rem !important;
     margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .mx-xxl-4 {
-    margin-right: 1.5rem !important;
     margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .mx-xxl-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .mx-xxl-auto {
-    margin-right: auto !important;
     margin-left: auto !important;
+    margin-right: auto !important;
   }
   .my-xxl-0 {
     margin-top: 0 !important;
@@ -3864,25 +3864,25 @@ export const bootstrapStyles = css`
     margin-top: auto !important;
   }
   .me-xxl-0 {
-    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .me-xxl-1 {
-    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
   }
   .me-xxl-2 {
-    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
   }
   .me-xxl-3 {
-    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
   .me-xxl-4 {
-    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
   .me-xxl-5 {
-    margin-right: 3rem !important;
+    margin-left: 3rem !important;
   }
   .me-xxl-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .mb-xxl-0 {
     margin-bottom: 0 !important;
@@ -3906,25 +3906,25 @@ export const bootstrapStyles = css`
     margin-bottom: auto !important;
   }
   .ms-xxl-0 {
-    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .ms-xxl-1 {
-    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
   }
   .ms-xxl-2 {
-    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
   .ms-xxl-3 {
-    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   .ms-xxl-4 {
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .ms-xxl-5 {
-    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .ms-xxl-auto {
-    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .p-xxl-0 {
     padding: 0 !important;
@@ -3945,28 +3945,28 @@ export const bootstrapStyles = css`
     padding: 3rem !important;
   }
   .px-xxl-0 {
-    padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .px-xxl-1 {
-    padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .px-xxl-2 {
-    padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .px-xxl-3 {
-    padding-right: 1rem !important;
     padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .px-xxl-4 {
-    padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .px-xxl-5 {
-    padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
   .py-xxl-0 {
     padding-top: 0 !important;
@@ -4011,22 +4011,22 @@ export const bootstrapStyles = css`
     padding-top: 3rem !important;
   }
   .pe-xxl-0 {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .pe-xxl-1 {
-    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
   }
   .pe-xxl-2 {
-    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
   .pe-xxl-3 {
-    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .pe-xxl-4 {
-    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .pe-xxl-5 {
-    padding-right: 3rem !important;
+    padding-left: 3rem !important;
   }
   .pb-xxl-0 {
     padding-bottom: 0 !important;
@@ -4047,22 +4047,22 @@ export const bootstrapStyles = css`
     padding-bottom: 3rem !important;
   }
   .ps-xxl-0 {
-    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .ps-xxl-1 {
-    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
   }
   .ps-xxl-2 {
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
   .ps-xxl-3 {
-    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   .ps-xxl-4 {
-    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .ps-xxl-5 {
-    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 @media print {
@@ -4100,6 +4100,5 @@ export const bootstrapStyles = css`
     display: none !important;
   }
 }
-
-/*# sourceMappingURL=bootstrap-grid.css.map */
+/*# sourceMappingURL=bootstrap-grid.rtl.css.map */
 `

@@ -302,7 +302,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 ol,
@@ -325,7 +325,7 @@ dt {
 
 dd {
   margin-bottom: 0.5rem;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 blockquote {
@@ -435,7 +435,7 @@ caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: var(--bs-secondary-color);
-  text-align: left;
+  text-align: right;
 }
 
 th {
@@ -527,7 +527,7 @@ fieldset {
 }
 
 legend {
-  float: left;
+  float: right;
   width: 100%;
   padding: 0;
   margin-bottom: 0.5rem;
@@ -540,7 +540,7 @@ legend {
   }
 }
 legend + * {
-  clear: left;
+  clear: right;
 }
 
 ::-webkit-datetime-edit-fields-wrapper,
@@ -562,14 +562,12 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
 [type="tel"],
 [type="url"],
 [type="email"],
 [type="number"] {
   direction: ltr;
 }
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -608,6 +606,5 @@ progress {
 [hidden] {
   display: none !important;
 }
-
-/*# sourceMappingURL=bootstrap-reboot.css.map */
+/*# sourceMappingURL=bootstrap-reboot.rtl.css.map */
 `

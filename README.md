@@ -1,4 +1,4 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LostInBrittany/granite-lit-bootstrap)
+<!--[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LostInBrittany/granite-lit-bootstrap)-->
 
 ## granite-lit-bootstrap
 
@@ -18,7 +18,7 @@ To use *granite-lit-bootstrap* in an element:
 Install the component using [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm i @granite-elements/granite-lit-bootstrap --save
+$ npm i @lmscloud/granite-lit-bootstrap --save
 ```
 
 
@@ -30,7 +30,7 @@ Once installed, import it in your application. Usually you will simply want to i
 Supossing you want to import `granite-lit-bootstrap.js`:
  
 ```
-import {bootstrapStyles} from '@granite-elements/granite-lit-bootstrap/granite-lit-bootstrap.js';
+import {bootstrapStyles} from '@lmscloud/granite-lit-bootstrap/granite-lit-bootstrap.js';
 ``` 
 
 #### 3. Inside your component, use *granite-lit-bootstrap* in the static `styles` property
